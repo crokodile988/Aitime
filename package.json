@@ -1,0 +1,15 @@
+{
+  "name": "ai-time-server",
+  "version": "1.0.0",
+  "description": "Plain-text time server for AI models that cannot execute JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
